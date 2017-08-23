@@ -1,0 +1,101 @@
+#content {
+	text-align: center;
+	padding-top: 10px;
+	/*text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);*/
+}
+
+body {
+	 background-size: cover;
+	 background-position: center;
+	 font-family: Lato;
+	 color: white;
+	 background: white;
+     background-attachment: fixed;
+ 
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  top:10px; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+html {
+	height: 100%;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+	font-color:black;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+#Logo{
+	width:300px;
+	height:300px;
+	position: relative;
+	top:70px;
+}
+
+#LogoPg2{
+	padding-top: 1px;
+	width:300px;
+	height:300px;
+	position: auto;
+
+}
+
+#Top_Logo{
+	width: 100px;
+	height: 100px;
+/*	padding-right: 5px;*/
+	padding: 5px;
+
+}
+
+#SignUp 
+	{
+	font-size: 30px;
+	color:#FFA500;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+form{
+	color: black;
+}
+#openTitle{
+	color: orange;
+	font-size: 40px;
+}
+#welcomeTitle
+{
+	color:dodgerblue;
+}
+#myScore{
+	color:dodgerblue;
+	position: absolute; 
+	left: 20px;
+}
+#Hi_User{
+	color:dodgerblue;
+	position:center;
+	font-size:2em;
+}
+#puzzleImg{
+	height:100px; 
+	width:150px;
+}
