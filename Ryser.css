@@ -51,13 +51,7 @@ hr {
 	top:70px;
 }
 
-#LogoPg2{
-	padding-top: 1px;
-	width:300px;
-	height:300px;
-	position: auto;
-
-}
+ 
 
 #Top_Logo{
 	width: 100px;
@@ -98,4 +92,8 @@ form{
 #puzzleImg{
 	height:100px; 
 	width:150px;
+}
+#LogoPg2{
+	width:300px;
+	height:300px;
 }
