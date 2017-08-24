@@ -1,23 +1,23 @@
 (function() {
   var questions = [{
     question: "How many calories are in a grape?",
-    choices: ["1 Calorie", "2 Calories", "3 Calories"],
+    choices: [" 1 Calorie", " 2 Calories", " 3 Calories"],
     correctAnswer:"2 Calories"
   }, {
     question: "Which food group should you eat most of?",
-    choices: ["Fruits", "Grains", "Vegetables"],
+    choices: [" Fruits", " Grains", " Vegetables"],
     correctAnswer: "Vegetables"
   }, {
     question: "Which vitamin is the best for developing a person’s bones?",
-    choices: ["A", "E", "D"],
+    choices: [" A", " E", " D"],
     correctAnswer: "D"
   }, {
     question: "How many grams of sugar are in a teaspoon?",
-    choices: ["4", "6", "10"],
+    choices: [" 4", " 6", " 10"],
     correctAnswer: "6"
   },{
     question: "Which of these isn’t a nutrient? ",
-    choices: ["Fiber", "Fats", "Minerals"],
+    choices: [" Fiber", " Fats", " Minerals"],
     correctAnswer: "6"
   }];
   
@@ -73,10 +73,10 @@
   });
   
   // Animates buttons on hover
-  $('.button').on('mouseenter', function () {
+  $('.popbutton').on('mouseenter', function () {
     $(this).addClass('active');
   });
-  $('.button').on('mouseleave', function () {
+  $('.popbutton').on('mouseleave', function () {
     $(this).removeClass('active');
   });
   
